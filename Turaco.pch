@@ -1,0 +1,46 @@
+//
+//  Turaco.pch
+//  Turaco
+//
+//  Created by eder yifrach on 5/17/16.
+//  Copyright © 2016 magalcom. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+
+#ifndef Turaco_pch
+#define Turaco_pch
+
+#import <Foundation/Foundation.h>
+
+
+#define IS_LOGIN                               @"isLogin"
+#define TOKEN_PUSH                             @"GcmToken"
+#define USER_NAME                              @"UserName"
+#define PASSWORD                               @"Password"
+#define VIDEO_DISPLAYER                        @"VIDEO_DISPLAYER"
+#define SETUP                                  @"SETUP"
+#define SERVER_URL                             @"SERVER_URL"
+
+#define LERP(A,B,C) ((A)*(1.0-C)+(B)*C)
+
+#import "TuracoBaseViewController.h"
+#import "Client.h"
+#import "UserInformation.h"
+#import "Panel.h"
+#import "PanelStatus.h"
+#import "Camera.h"
+#import "Site.h"
+#import "ZoneDetails.h"
+#import "ConnectionManager.h"
+#import "defindes.h"
+#import "DataManager.h"
+#import "MainViewController.h"
+
+
+
+
+#endif /* Turaco_pch */
+
+#endif
